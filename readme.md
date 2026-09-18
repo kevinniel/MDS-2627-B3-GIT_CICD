@@ -17,7 +17,9 @@
 - `Fork` : C'est un repository distant propriétaire qui est une copie d'un autre repository distant non propriétaire.
 - `Pull Request` : Propose de fusionner un fork vers le repository original.
 - `Tag` : Étiquette permettant d'indiquer une version importante et stable.
-
+- `Issue` : "Ticket" géré via le système de ticketing de github.
+- `Milestone` : Ensemble d'issues permettant la gestion d'un projet.
+- `Kanban` : Affichage des issues dans github selon la méthodologie Agile (Kanban).
 
 ## Commandes
 
@@ -66,5 +68,23 @@ Pour identifier un conflit dans un fichier, 3 parties :
 2. Penser à `git pull` avant de `git push` permet d'éviter d'en avoir.
 3. C'est normal d'en rencontrer, même avec les meilleures pratiques.
 
+## Votre profil Github
 
+Github vous permet de créer un "profil" et de le présenter proprement. Pour en mettre en place :
 
+1. créer un repository qui ait **EXACTEMENT** le même nom que votre pseudo.
+2. créer un fichier readme.md dedans et le remplir
+3. consultez l'url : https://github.com/VOTRE_PSEUDO
+
+Le contenu du fichier readme devrait s'afficher !
+
+## Les bonnes pratiques
+
+- Les commentaires de vos commits doivent être explicites. Si vous avez oublier de nommer correctement le dernier, faites un `git commit --amend`.
+- intégrer les gitmoji : https://gitmoji.dev/
+- Avoir un beau profil (ex : https://github.com/abhisheknaiidu/awesome-github-profile-readme?tab=readme-ov-file)
+- Utiliser Git Flow !
+
+## Ressources utiles 
+- Vous pouvez installer l'utilitaire Gitflow pour CLI : `https://danielkummer.github.io/git-flow-cheatsheet/`
+- Github en CLI : `https://cli.github.com/`
