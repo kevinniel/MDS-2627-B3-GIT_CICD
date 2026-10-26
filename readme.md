@@ -88,3 +88,21 @@ Le contenu du fichier readme devrait s'afficher !
 ## Ressources utiles 
 - Vous pouvez installer l'utilitaire Gitflow pour CLI : `https://danielkummer.github.io/git-flow-cheatsheet/`
 - Github en CLI : `https://cli.github.com/`
+
+# TP
+
+À rendre avant le 28 Octobre 2026, 17h, sur ma boite mail : k.niel.pro@gmail.com
+
+Objet du mail : "RENDU MDS B3 DFS - {NOM PRENOM}" (mauvais objet email : -5 points / 20)
+
+Contenu : un email pro qui envoie le rendu.
+
+Rendu : 
+- 1 fichier PDF, **PROPRE** et professionnel, qui explique, step-by-step, comment vous avez mis en ligne votre projet.
+  - configuration du serveur
+  - gestion du nom de domaine + DNS (optionnel)
+  - déploiement
+  - mise en place du CI/CD expliquée
+- L'URL de votre projet en production, accessible et fonctionnel. (Si BDD, pensez aux comptes de démo)
+
+
