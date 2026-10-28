@@ -105,4 +105,19 @@ Rendu :
   - mise en place du CI/CD expliquée
 - L'URL de votre projet en production, accessible et fonctionnel. (Si BDD, pensez aux comptes de démo)
 
+# TP2 : 
 
+Deuxième travail à réaliser, à rendre selon les mêmes modalités que précitées.
+
+Vous aurez besoin pour ce second travail d'un projet utilisant des tests unitaires. Il n'est pas nécessaires de les comprendre parfaitement ou de savoir les faire - ce n'est pas le sujet du jour. Vous pouvez en faire des très simples (même inutiles, ce n'est pas grave), l'idée est surtout de paramétré votre pipeline CI/CD !
+
+⚠️ ATTENTION ⚠️ : vous devez AUSSI documenter ce que vous réalisé ici, tout au long de la réalisation du travail demandé. Vous n'aurez peut-être pas le temps de tout faire : ce qui n'est pas documenté ne sera pas noté ! 
+
+**Éléments de rendu à implémenter et à documenter** : 
+- Améliorez votre job dans le déploiement en intégrant automatiquement l'exécution de tests unitaires avant le déploiement de vos modifications sur votre production. Si les tests passent, alors le déploiement se réalise, sinon il est bloqué.
+- Mettez en place un système de validation de modifications avant de passer en production. Utilisez les systèmes de Pull Request et les Branches pour qu'une PR soit obligatoire avant toute validation de modification sur votre branche de production.
+- Implémentez une branche de pré-production. Mettez en place un second environnement de production, avec une branche dédiée. On doit avoir 2 URL différentes (2 BDD aussi si présentes). Dupliquez la mise en place des PR pour déployer en automatique sur l'environnement de préprod. Les règles de déploiement et conditions associées choisies doivent être explicitées dans votre document.
+
+_Bonus pour aller plus loin (optionnel)_ :
+- Renseignez vous sur Git Flow, essayez de l'implémenter au sein de votre projet (en réalisant des modifications mineures)
+- Renseignez vous sur Gitmoji, implémentez le (rétroactivement si vous y arrivez 😇)
